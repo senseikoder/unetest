@@ -1,0 +1,101 @@
+body{
+	background: url(bg.jpg);
+	font-family: arial, helvetica;
+	font-size: 0.9em;
+    margin: 0;
+}
+.contenedora{
+	width:965px;
+	margin: 0 auto;
+    margin-top: -50px;
+	border-radius: 15px;
+	background: white
+}
+.header {
+    background: #6ea6ff;
+}
+.top {
+    width: 965px;
+    margin: 0 auto;
+    height: 90px;
+}
+.banner{
+	height: 280px;
+    background: url(banner.jpg);
+}
+.banner h1 {
+    line-height: 280px;
+    text-align: center;
+    color: aliceblue;
+    margin: 0
+}
+.logo {
+    width: 150px;
+    float: left;
+}
+.row{
+	text-align: center
+}
+.col{
+	width: 265px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: justify;
+	padding: 20px
+}
+.col h2{
+	color: brown;
+}
+.con_margin{
+		margin-top: 30px
+}
+.menu{
+	padding: 0;
+	float: right;
+}
+.menu li{
+    float: left; 
+    list-style: none
+}
+.menu li a{
+	text-decoration: none; 
+	color: black;
+	padding: 15px;
+}
+.menu li a:hover, .active{
+	background: #B52025
+}
+footer{
+	height: 90px
+}
+footer a{
+	text-decoration: none; 
+	color: black;
+}
+footer .menu li a:hover {
+    position: relative;
+    top: 10px;
+}
+.enlaces{
+	width: 500px;
+	float: left;
+	padding-left:35px;
+
+}
+
+/* @media (max-width: 540px) {
+	.col {
+		display: block;
+		width: 90%;
+		padding: 30px;
+	}
+}
+
+@media (min-width: 768px) {
+	.contenedora {
+		width: 820px;
+	}
+	.col {
+		width: 350px;
+	}
+} */
